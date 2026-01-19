@@ -1,7 +1,7 @@
 
 # Database Reporting Project
 
-## Purpose:
+## Purpose
 This project focuses on applying database technologies to address real-world business challenges using and building the methods and skills in database management, data analytics, and SQL programming. 
 
 
@@ -38,7 +38,7 @@ The marketing department in a company would like to create a Marketing database 
   - **Activity**
   - **Invoice**
 
-## Action Items:
+## Action Items
 Review the Marketing schema model, analyze the data, and generate the following reports for the leadership team in the Marketing department:
 
 * **Program Reports:**
