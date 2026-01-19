@@ -5,7 +5,7 @@
 This project focuses on applying database technologies to address real-world business challenges using and building the methods and skills in database management, data analytics, and SQL programming. 
 
 
-## Project Descirption ##
+## Project Description ##
 
 The marketing department in a company would like to create a Marketing database to store the marketing information that allows business users to generate the reports related to Activities, Campaigns, Programs and Expenses for marketing purpose. 
 
