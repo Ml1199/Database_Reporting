@@ -1,4 +1,4 @@
-### Database Reporting for Business Challenges ###
+Database Reporting for Business Challenges
 
 
 ## Purpose: 
