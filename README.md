@@ -1,5 +1,5 @@
 
-### Database Reporting Project: 
+# Database Reporting Project: 
 This project focuses on applying database technologies to address real-world business challenges using and building the methods and skills in database management, data analytics, and SQL programming. 
 
 
