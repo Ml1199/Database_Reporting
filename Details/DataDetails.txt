@@ -1,0 +1,7 @@
+Data Details - Table and Primary Key:
+
+Program (Program_Id [PK], Program_Name, Description, Start_Date, End_Date, Last_Modified_Date, Modified_By)
+Campaign (Campaign_Id [PK], Program_Id [FK], Campaign_Name, Description, Budget_Amount, Start_Date, End_Date, Last_Modified_Date, Modified_By)
+Activity (Activity_Id [PK], Campaign_Id [FK], Activity_Name, Description, Start_Date, End_Date, Last_Modified_Date, Modified_By)
+Expenses (Expense_Id [PK], Activity_Id [FK], Invoice_Id [FK], Expense_Amount, Expense_Date)
+Invoice (Invoice_Id [PK], Activity_Id [FK], Expense_Id, Invoice_Number, Invoice_Date, Amount)
