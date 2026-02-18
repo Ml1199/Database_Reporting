@@ -22,20 +22,3 @@ FROM
 ORDER BY 
         Program_Id,
         Campaign_Name
---
-
-        
-SELECT  p.Program_Name, 
-        p.Start_Date, 
-        p.End_Date, 
-        c.Campaign_Name, 
-        a.Activity_Name, 
-        e.Expense_Amount,
-        e.Expense_Date,
-        Sum(e.Expense_Amount) as Total_Expenses,
-        ROUND(AVG(e.Expense_Amount), 2) as Expenses_By_Month
-FROM Program as p
-Join Campaign as c on c.program_id = p.program_id
-Join Activity as a on a.campaign_id = c.campaign_id
-Join Expenses as e on e.activity_id = a.activity_id
-Group by c.Campaign_Name 
