@@ -1,6 +1,7 @@
 -- Objective 1: List the Program_ids, Program Names, along with their respective Start date and End date, sort the output result by Start date, then Program Name.
 -- Objective 2: List the Program_id and Campaign Name related to each Program, sort the output result by Program_id, then Campaign Name.
 
+-- Program Report 1:
 
 SELECT
         Program_Id,
@@ -12,7 +13,7 @@ FROM
 ORDER BY 
         Start_Date, Program_Id
 
-
+-- Program Report 2:
 
 SELECT 
         Program_Id,
